@@ -1,77 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- required meta tags always come first-->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF 8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title>Jo-Keto: That's So Keto!</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <!-- Bootstrap CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
 
+        <!-- Fontawesome CDN -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    
+        <!-- OwlCarousel CDN  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
-    <title>Jo-Keto</title>
+        <!-- Custom Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="assets/css/styles.css" />  
+
 </head>
 
 <body>
-<!-- create carousel of food pics in the jumbotron 2 of each bfast,lunch,dinner,beverages -->
+<!-- Main Home Section -->
+<section id="main-home">
+<!-- Header -->
+<header>
 
-    <header>
-        <div>
-            <h1>Jo-KETO</h1>
-            <h2>The keto way!</h2>
+    <div class="container">
+        <!-- top Nav-->
+        <div class="header-top d-flex justify-content-between pt-2">
+            <div class="d-flex justify-content-between">
+                <div class="item px-2">
+                    <p>Follow us:</p>
+                </div>
+                <div class="item px-2">
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="item px-2">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="item px-2">
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between">
+                <div class="item px-2">
+                    <p><i class="fas fa-phone-alt"></i> +1 310 OHH-KETO</p>
+                </div>
+                <div class="item px-2">
+                    <p><i class="fas fa-map-marker-alt"></i> Venice Beach, USA</p>
+                </div>
+            </div>
         </div>
-    </header>
-    <div>
-        <h2>Our services</h2>
-        <p>Jo-Keto provides a keto friendly menu full of flavor and health-conscious selections. Whether you're having a business meeting or family cookout, we can cater to your needs. Check out our menus below. </p>
-    </div>
-    <div>
-        <h2>Breakfast</h2>
-        <!-- add bootstrap cards with for each menu-->
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+              <a class="navbar-brand" href="#">
+                  <img src="assets/img/keto-veggies.jpeg" />
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"   aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Offers</a><!--wiil change to menus-->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <div class="cart-icon my-auto bg-pink">
+                    <i class="fas fa-shopping-cart"></i>
+                  </div>
+                </ul>
+              </div>
+        </nav>
     </div>
 
-    <div>
-        <h2>Lunch</h2>
-        <!-- add bootstrap card for menu-->
-    </div>
+</header>
+<!-- Header End-->
 
-    <div>
-        <h2>Dinner</h2>
-        <!-- add bootstrap card for menu-->
-    </div>
-
-    <div>
-        <h2>Beverages</h2>
-        <!-- add bootstrap card for menu-->
-    </div>
-
-    <footer>
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contact</a></li> <!-- create a google map of the areas we service and a form that can be submitted for inquiries. -->
-            </ul>
+<!-- Carousel Slider -->
+<div id="banner-slider" class="pt-5">
+    <div class="container">
+        <div class="owl-carousel owl-theme">
+            <!-- Slide 1 -->
+            <div class="item">
+                <div class="row">
+                    <div class="col-md-6 my-auto">
+                        <div>
+                            <h4>Its so Keto here</h4> 
+                            <h1>Damn you <span class="color-pink">SO KETO</span></h1>
+                            <p class="py-2">If it aint keto it aint me</p>
+                            <a href="#" class="btn btn-theme">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/keto-ribeye.jpeg"  />
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="item">
+                <div class="row">
+                    <div class="col-md-6 my-auto">
+                        <div>
+                            <h4>You say Keto I say...</h4> 
+                            <h1><span class="color-pink">Deliciouso</span></h1>
+                            <p class="py-2">You just want cuz I'm keto</p>
+                            <a href="#" class="btn btn-theme">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/keto-coffee.jpeg"  />
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
-        </div>
-        <div>
-            Tel: 213-YUM-KETO<br />
-            Email: joketo@gmail.com
-        </div>
-    </footer>
+    </div>
 
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</div>
+<!-- Carousel Slider Ends -->
+
+</section>
+<!-- Main Home Section End -->
 
 </body>
-
 </html>
+
+<!-- ScriptLinks -->
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" ></script>
+<!-- OwlCarousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+<!-- Custom JS -->
+<script src="assets/js/script.js"></script>

@@ -1,0 +1,67 @@
+/* Stylesheet */
+
+/* 
+Color Code 
+Orange
+Orangered
+Orchid
+
+*/
+.bg-pink{
+  background-color:orangered;
+}
+.color-pink{
+  color:orchid;
+}
+
+.btn-theme {
+  background-color: yellow;
+  padding: 5px 20px; 
+  color: orangered;
+}
+
+.btn-theme:hover {
+ 
+  color: orchid;
+  box-shadow: 0px 0px 0px 4px orchid;
+}
+
+html,body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#main-home .header-top .item a {
+  color:orangered ;
+} 
+
+#main-home .header-top .item a:hover {
+  color:orchid;
+} 
+
+#main-home .navbar .nav-item{
+  padding: 0 15px;
+}
+
+#main-home .navbar .nav-item .nav-link{
+  color:orchid;
+}
+
+#main-home .navbar .nav-item .nav-link:hover{
+  color:orangered;
+}
+
+#main-home .navbar .cart-icon{
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Responsive Styles */
+
+/* Mobile Phone Screen  */
+@media only screen and (max-width:580px){
+  #main-home .header-top{
+    flex-direction: column;
+  } 
+  }
+
