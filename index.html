@@ -161,24 +161,83 @@
 <!-- Menu Section -->
 <section id="menu-section">
     <div class="container">
-        <div class="row" id="menu-buttons">
-            <div class="col-md col-sm-8">
-                <img src="assets/img/keto-ribeye.jpeg" width="250px" /><!-- Replace with image of check out our menus! -->
+        <div class="row">
+            <div class="col">
+                <h1> Check Out our Menus Below</h1>
             </div>
-            <div class="col-md col-sm-8">
-                <button type="button" class="btn btn-success">Breakfast</button>
-                    <!-- Breakfast Menu Modal -->
-            </div>
-            <div class="col-md col-sm-8">
-                <button type="button" class="btn btn-success">Lunch</button>
-            </div>
-            <div class="col-md col-sm-8">
-                <button type="button" class="btn btn-success">Dinner</button>
-            </div>
+        </div>
+        <div class="row mt-5 justify-content-center" id="menu-buttons">
+<!-- Breakfast Menu -->
+                <div class="col-md-4 col-sm-4">
+                    <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#breakfastModal">Breakfast</button>
+                        <div class="modal fade" id="breakfastModal" tabindex="-1" aria-labelledby="breakfastModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="breakfastModalLabel">Good Morning Keto!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                ...
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+<!-- End of Breakfast Menu -->
+
+<!-- Lunch/Dinenr Menu -->
+                <div class="col-md-4 col-sm-4">
+                    <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#lunchdinnerModal">Day & Night</button>
+                    <div class="modal fade" id="lunchdinnerModal" tabindex="-1" aria-labelledby="lunchdinnerModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="lunchdinnerModalLabel">Its Ket-o'clock! Let's Eat!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            ...
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+<!-- Lunch./Dinner Menu Ends -->
+
+<!-- Beverage Menu -->
+                <div class="col-md-4 col-sm-4">
+                    <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#beverageModal">Beverages</button>
+                    <div class="modal fade" id="beverageModal" tabindex="-1" aria-labelledby="beverageModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="beverageModalLabel">Dang You Thirsty!?!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            ...
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+<!-- Beverage Menu Ends -->
         </div>
     </div>
 </section>
 <!-- End of Menu Section -->
+
+
 </body>
 </html>
 
