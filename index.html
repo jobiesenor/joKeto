@@ -109,7 +109,6 @@
                             <h4>Its so Keto here</h4> 
                             <h1>Damn you <span class="color-pink">SO KETO</span></h1>
                             <p class="py-2">If it aint keto it aint me</p>
-                            <a href="#" class="btn btn-theme">Order Now</a>
                         </div>
                     </div>
                     <div class="col-md-6 my-auto">
@@ -125,7 +124,6 @@
                             <h4>You say Keto I say...</h4> 
                             <h1><span class="color-pink">Deliciouso</span></h1>
                             <p class="py-2">You just want ME cuz I'm keto</p>
-                            <a href="#" class="btn btn-theme">Order Now</a>
                         </div>
                     </div>
                     <div class="col-md-6 my-auto">
@@ -141,7 +139,6 @@
                             <h4>Ohhh Im so keto</h4> 
                             <h1><span class="color-pink">I like keto buns</span></h1>
                             <p class="py-2">and I cannot lie</p>
-                            <a href="#" class="btn btn-theme">Order Now</a>
                         </div>
                     </div>
                     <div class="col-md-6 my-auto">
@@ -166,12 +163,14 @@
                 <h1> Check Out our Menus Below</h1>
             </div>
         </div>
-        <div class="row mt-5 justify-content-center" id="menu-buttons">
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class="row mt-5">
 <!-- Breakfast Menu -->
                 <div class="col-md-4 col-sm-4">
-                    <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#breakfastModal">Breakfast</button>
+                    <button type="button" id="menu-button" class="btn btn-success btn-lg mt-2" data-bs-toggle="modal" data-bs-target="#breakfastModal">Breakfast</button>
                         <div class="modal fade" id="breakfastModal" tabindex="-1" aria-labelledby="breakfastModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog modal-dialog-scrollable">
                             <div class="modal-content">
                                 <div class="modal-header">
                                 <h5 class="modal-title" id="breakfastModalLabel">Good Morning Keto!</h5>
@@ -182,19 +181,39 @@
                                         <p> Step 1: Choose that Meat!</p>
                                         <p> Step 2: Choose them stuffings!(up to 3) Extras: $1.00</p>
                                     
-                                    <h2>Sausages:</h2> <p>Turkey, Pork, Chx, Beef</p>
+                                    <h2>Sausages:</h2> <p>Turkey, Pork, Chicken, Beef</p>
                                     
-                                    <h2>Stuffings:</h2> <p>goat cheese, cream cheese, sour cream, sauteed bell peppers, tomato, jalapeno, lettuce, spinach, grill onions, red onions, radish, chives, cilantro, parsley, avocado +$2.</p>
+                                    <h2>Stuffings:</h2> 
+                                        <p>
+                                            Goat Cheese, Cream Cheese, Sour Cream, Sauteed Bell Peppers, Tomato, Jalapeno, 
+                                            Lettuce, Spinach, Grill Onions, Red Onions, Radish, Chives, Cilantro, Parsley, Avocado +$2.
+                                        </p>
 
                                     <h1>Bowls</h1>
                                         <p> Step 1: Choose Your Protein!</p>
                                         <p> Step 2: Choose those toppings!(up to 5) Extras: $1.00</p>
                                     
-                                    <h2>Proteins:</h2><p>Sausage-(Turkey, Pork, Chx, Beef), Bacon, Eggs, Egg Whites</p>
+                                    <h2>Proteins:</h2>
+                                        <p>Sausage-(Turkey, Pork, Chicken, Beef), Bacon, Eggs, Egg Whites</p>
                                     
-                                    <h2>Toppings:</h2><p>goat cheese, cream cheese, sour cream, sauteed bell peppers, tomato, jalapeno, lettuce, spinach, grill onions, red onions, radish, chives, cilantro, parsley, avocado +$2.</p>
+                                    <h2>Toppings:</h2>
+                                        <p>
+                                            Goat Cheese, Cream Cheese, Sour Cream, Sauteed Bell Peppers, Tomato, Jalapeno, 
+                                            Lettuce, Spinach, Grill Onions, Red Onions, Radish, Chives, Cilantro, Parsley, Avocado +$2.
+                                        </p>
 
                                     <h1>Ket-Oatmeal</h1>
+                                        <p> Step 1: Choose Your Base.</p>
+                                        <p> Step 2: Choose those toppings!(unlimited)</p>
+                                        
+                                    <h2>Base:</h2>
+                                        <p>Chia Seed, Flaxeed, and Hemp ❣️ Heart Seed</p>
+                                        
+                                    <h2>Toppings:</h2>
+                                            <p>
+                                                Coconut Flakes, Blueberries, Blackberries, Strawberries, Raspberries, 
+                                                Dark Chocolate Chips, Cherries, Peaches, Pecans, Macadamia Nuts  
+                                            </p>
                                     
                                 </div>
                                 <div class="modal-footer">
@@ -206,18 +225,45 @@
                 </div>
 <!-- End of Breakfast Menu -->
 
-<!-- Lunch/Dinenr Menu -->
+<!-- Lunch/Dinner Menu -->
                 <div class="col-md-4 col-sm-4">
-                    <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#lunchdinnerModal">Day & Night</button>
+                    <button type="button" id="menu-button" class="btn btn-success btn-lg mt-2" data-bs-toggle="modal" data-bs-target="#lunchdinnerModal">Day & Night</button>
                     <div class="modal fade" id="lunchdinnerModal" tabindex="-1" aria-labelledby="lunchdinnerModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
+                        <div class="modal-dialog modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="modal-header">
                             <h5 class="modal-title" id="lunchdinnerModalLabel">Its Ket-o'clock! Let's Eat!</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                            ...
+                                <h1> Bun-Less Burgers </h1>
+                                    <p> Step 1: Choose that Meat!</p>
+                                    <p> Step 2: Choose them toppings!(up to 3) Extras: $1.00</p>
+                                    <p> Step 3: Now for the Sauce👅 </p>
+                                
+                                <h2>Meats:</h2> <p>Turkey, Pork, Chicken, Beef</p>
+                                
+                                <h2>Toppings:</h2> 
+                                    <p>
+                                        Goat Cheese, Bleu Cheese, Swiss Cheese, Mozzarella, Bacon, Mushrooms, Sauteed Bell Peppers, Tomato, 
+                                        Jalapeno, Lettuce, Grill Onions, Red Onions, Pickles, Avocado +$2.
+                                    </p>
+                                <h2>Sauces:</h2>
+                                    <p>
+                                      Garlic Aioli, Dat 🤟 Sauce, Spicy Mayo.    
+                                    </p>
+
+                                <h1>Bowls:</h1>
+                                    <p> Step 1: Choose Your Protein!</p>
+                                    <p> Step 2: Choose those Sides!(up to 3) Extras: $2.50</p>
+
+                                <h2>Proteins:</h2>
+                                    <p>Meat- Grilled Chicken Thighs, Ground Turkey, Pulled Pork, Bacon, Daily 🐟 Catch, Brisket, Steak </p>
+                                
+                                <h2>Sides:</h2>
+                                    <p> Sauteed: Cabbage, Green Beans, Kale, Spinach. </p>
+                                    <p> Roasted: Carrots, Eggplants, Brussel Sprouts. </p>
+                                    <p> Grilled: Broccoli, Asapragus, Avocado, Tomato. </p>
                             </div>
                             <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -230,16 +276,36 @@
 
 <!-- Beverage Menu -->
                 <div class="col-md-4 col-sm-4">
-                    <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#beverageModal">Beverages</button>
+                    <button type="button" id="menu-button" class="btn btn-success btn-lg mt-2" data-bs-toggle="modal" data-bs-target="#beverageModal">Beverages</button>
                     <div class="modal fade" id="beverageModal" tabindex="-1" aria-labelledby="beverageModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
+                        <div class="modal-dialog modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="modal-header">
                             <h5 class="modal-title" id="beverageModalLabel">Dang You Thirsty!?!</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                            ...
+                                <h1>Coffee ☕️</h1>
+                                    <p> House Cold Brew</p>
+                                    <p> Drip Coffee </p>
+                                    <p> Mocha Latte </p>
+                                    <p> Vanilla Latte </p>
+                                    <p> Hazelnut Latte </p>
+                                    <p> Cinnamon Latte </p>
+
+                                <h1>Tea🍵</h1>
+                                    <p> Black Tea w/ Honey (hot or iced) </p>
+                                    <p> Green Tea w/ Honey (hot or iced) </p>
+                                    <p> Southern Sweet Tea </p>
+                                    <p> Sweet Lemon Tea </p>
+                                    <p> Sweet Peach Tea </p>
+                                <h1>Lemonades 🍋</h1>
+
+                                    <p> Classic </p>
+                                    <p> Mint </p>
+                                    <p> Berry </p>
+                                    <p> Cucumber Lime </p>
+
                             </div>
                             <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -324,3 +390,37 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
 <!-- Custom JS -->
 <script src="assets/js/script.js"></script>
+
+<!-- 
+    >Add Gallery Section
+        1. use owl carousel and remove side to side look
+        2. add pics that fit 6 pics
+        3. have text of what item is overlay on the pic
+        4. adjust breakpoints 
+    Add contact section - add some more functionality to the top of the page
+        1. Make all buttons responsive as well as email 
+        2. Add link to map icon - and click for directions button
+        3. add hours to this section: M-Th 12p-8p S&S 10a-6pm
+        4. Make look more modern
+    Add about us section in the footer 
+        1. Brief description: jo-keto is where it's at when it comes to eating healthy but not losing flavor.
+           Follow us on social media to learn more about our story
+        2. add social media links in footer
+    Add a background similar to the one in the tutorial. 
+        1. A gradient image of food for the menu section
+        2. Add a regular gradient background for the header and footer or experiment with the image. 
+    Change Navbar and link to sections & pages
+        1. get rid of shopping cart
+        2. remove about us 
+        3. link each page to a section of the page. 
+        4. should include: About Us, Menus, Gallery,  
+    Debug
+        1. Fix order now button so it doesn't touch the pic in the owl carousel
+        2. Fix menu buttons in desktop mode. Have them span across. Also make them look more modern(possibly add emojis too)
+    Get pseudo logo
+    Adjust breakpoints 
+    Install npm to build folders 
+    upload to netlify
+    update website
+
+-->

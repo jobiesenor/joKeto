@@ -117,6 +117,11 @@ this wiil be background from home page...find a image suitable...preferably spli
   padding-top: 100px;
 }
 
+#menu-button:hover {
+  color: white;
+  background-color: orchid;
+
+}
 
 
 
